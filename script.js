@@ -95,9 +95,9 @@ function att(){
     const qtde1 = document.querySelector("#qtde1").value
     const qtde2 = document.querySelector("#qtde2").value
   
-    let preco = qtde * 10;
-    let preco1 = qtde1 * 20;
-    let preco2 = qtde2 * 30;
+    let preco = qtde * 3,5;
+    let preco1 = qtde1 * 0,75;
+    let preco2 = qtde2 * 2,3;
     precototal = preco + preco1 + preco2;
    
     document.querySelector("#precot").innerHTML = `R$ ${precototal.toFixed(2)}`
