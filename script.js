@@ -97,7 +97,7 @@ function att(){
   
     let preco = qtde * 3.5;
     let preco1 = qtde1 * 0.75;
-    let preco2 = qtde2 * 2.3;
+    let preco2 = qtde2 * 2.03;
     precototal = preco + preco1 + preco2;
    
     document.querySelector("#precot").innerHTML = `R$ ${precototal.toFixed(2)}`
