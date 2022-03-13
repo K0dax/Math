@@ -75,11 +75,11 @@ const createRow = (product, index) => {
     const subt = product.lucro * product.qnt
     const subt2 = product.venda * product.qnt
     newRow.innerHTML = `<td data-title="Nome do produto">${product.nome}</td>
-    <td data-title="Lucro por unidade">${product.lucro}</td>
-    <td data-title="Quantidade vendida">${product.qnt}
+    <td data-title="Lucro Unidade">${product.lucro}</td>
+    <td data-title="Qnt vendida">${product.qnt}
     </td>
-    <td data-title="Subtotal lucro">R$ ${subt}</td>
-    <td data-title="Subtotal Bruto">R$ ${subt2}</td>
+    <td data-title="Sub lucro">R$ ${subt}</td>
+    <td data-title="Subt Bruto">R$ ${subt2}</td>
     <td>
         <button type="button" class="button green" id="edit-${index}">Editar</button>
         <button type="button" class="button red" id="delete-${index}">Excluir</button>
