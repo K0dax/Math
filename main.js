@@ -74,7 +74,7 @@ const createRow = (product, index) => {
     const newRow = document.createElement('tr')
     const subt = product.lucro * product.qnt
     const subt2 = product.venda * product.qnt
-    newRow.innerHTML = `<td data-title="Nome do produto">${product.nome}</td>
+    newRow.innerHTML = `<td data-title="Nome">${product.nome}</td>
     <td data-title="Lucro Unidade">${product.lucro}</td>
     <td data-title="Qnt vendida">${product.qnt}
     </td>
