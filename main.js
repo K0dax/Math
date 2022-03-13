@@ -140,5 +140,8 @@ document.getElementById('modalClose')
 document.getElementById('salvar')
     .addEventListener('click', saveProduct)
 
+document.getElementById('cancelar')
+    .addEventListener('click', closeModal)
+
 document.querySelector('#tbProduct>tbody')
     .addEventListener('click', editDelete)
