@@ -45,7 +45,6 @@ const isValidFields = () => {
 
 //Interação
 const saveProduct = () => {
-    debugger
     if (isValidFields()){
         const product = {
             nome: document.getElementById('name').value,
@@ -60,10 +59,12 @@ const saveProduct = () => {
             createProduto(product)
             updateTable()
             closeModal()
+            location.reload()
         }else{
             updateProduct(index, product)
             updateTable()
             closeModal()
+            location.reload()
         }
             
     }
